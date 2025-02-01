@@ -1,0 +1,62 @@
+.barre{
+    background-color: #4D4040;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: calc(100% - 80px);
+    margin: 40px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.button {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 20px;}
+.button button {
+    background-color: #4D4040;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: "Academy Engraved LET", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 20px;
+    
+}
+
+.button button:hover {
+    background-color: #2e2b2b;
+}
+
+.button button::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+}
+
+.button button:hover {
+    transform: translateY(-3px);
+}
+
+.button button:hover::after {
+    width: 100%;
+    left: 0;
+}
