@@ -8,7 +8,6 @@ import gmailIcon from '../assets/icons8-gmail-100.png'
 import CV from '../assets/HamzaNadifiResume.pdf'
 
 function About() {
-  
 
   return (
     <div className={Style.about}>
@@ -21,7 +20,7 @@ function About() {
             <a href="https://www.linkedin.com/in/hamza-nadifi-18840a1a9/">
                 <img src={linkedinIcon} alt="linkedin" />
             </a>
-            <a href="mailto:nadifihamza07@gmail.com" onClick={toggleEmailWindow}>
+            <a href="mailto:nadifihamza07@gmail.com">
                 <img src={gmailIcon} alt="gmail" />
             </a>
         </div>
