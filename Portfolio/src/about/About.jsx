@@ -1,4 +1,4 @@
-import React , {useState} from 'react'
+import React from 'react'
 import Style from './AboutStyles.module.css'
 
 import linkedinIcon from '../assets/icons8-linkedin-100.png'
@@ -8,19 +8,7 @@ import gmailIcon from '../assets/icons8-gmail-100.png'
 import CV from '../assets/HamzaNadifiResume.pdf'
 
 function About() {
-
-    const [showEmailWindow, setShowEmailWindow] = useState(false);
-
-  // Fonction pour afficher/masquer la fenêtre d'email
-  const toggleEmailWindow = () => {
-    setShowEmailWindow(!showEmailWindow);
-  };
-
-  // Fonction pour copier l'email dans le presse-papier
-  const copyEmail = () => {
-    navigator.clipboard.writeText('nadifihamza07@gmail.com');
-    alert("Email copié dans le presse-papier !");
-  };
+  
 
   return (
     <div className={Style.about}>
