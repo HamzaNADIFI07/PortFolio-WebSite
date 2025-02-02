@@ -49,3 +49,24 @@ p {
     font-size: 2em;
     max-width: 600px;
 }
+button {
+    background-color: #4D4040;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    font-family: "Arial", sans-serif;
+    border: 2px solid #4D4040;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    
+}
+
+button:hover {
+    background-color: transparent;
+    border-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+

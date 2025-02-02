@@ -23,32 +23,35 @@
     display: flex;
     align-items: center;
     margin-left: auto;
-    margin-right: 20px;}
+    margin-right: 20px;
+    margin-top: 10px;
+}
 .button button {
     background-color: #4D4040;
     border: none;
     color: white;
-    padding: 10px 20px;
+    padding: 20px 20px;
     cursor: pointer;
     font-family: "Academy Engraved LET", sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 500;
     margin: 20px;
+    
+
     
 }
 
 .button button:hover {
-    background-color: #2e2b2b;
+    background-color: transparent;
+    border-radius: 10px;
 }
 
 .button button::after {
-    content: "";
     position: absolute;
     left: 50%;
     bottom: 0;
     width: 0;
     height: 2px;
-    background-color: white;
     transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
 }
 
