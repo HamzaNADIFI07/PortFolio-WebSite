@@ -1,0 +1,15 @@
+.title{
+    font-size: 5em;
+    font-family: "Academy Engraved LET", sans-serif;
+    color: white;
+}
+.fProjects{
+    display: flex;
+    gap: 60px;
+}
+
+.sProjects{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}

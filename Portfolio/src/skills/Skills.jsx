@@ -1,25 +1,25 @@
-import React from 'react'
 import Style from './SkillsStyles.module.css'
 
-import htmlIcon from '../assets/icons8-html-100.png'
-import cssIcon from '../assets/icons8-css-100.png'
-import jsIcon from '../assets/icons8-javascript-100.png'
-import phpIcon from '../assets/icons8-php-logo-100.png'
-import javaIcon from '../assets/icons8-logo-java-coffee-cup-100.png'
-import pythonIcon from '../assets/icons8-python-100.png'
-import cIcon from '../assets/icons8-c-100.png'
+import htmlIcon from '../assets/skills/icons8-html-100.png'
+import cssIcon from '../assets/skills/icons8-css-100.png'
+import jsIcon from '../assets/skills/icons8-javascript-100.png'
+import phpIcon from '../assets/skills/icons8-php-logo-100.png'
+import javaIcon from '../assets/skills/icons8-logo-java-coffee-cup-100.png'
+import pythonIcon from '../assets/skills/icons8-python-100.png'
+import cIcon from '../assets/skills/icons8-c-100.png'
 
-import reactIcon from '../assets/icons8-react-native-100.png'
-import nodeIcon from '../assets/icons8-nodejs-100.png'
-import bootstrapIcon from '../assets/icons8-bootstrap-100.png'
+import reactIcon from '../assets/skills/icons8-react-native-100.png'
+import nodeIcon from '../assets/skills/icons8-nodejs-100.png'
+import angularIcon from '../assets/skills/icons8-angularjs-100.png'
+import bootstrapIcon from '../assets/skills/icons8-bootstrap-100.png'
 
-import mysqlIcon from '../assets/icons8-mysql-100.png'
-import mongodbIcon from '../assets/icons8-mongodb-100.png'
+import mysqlIcon from '../assets/skills/icons8-mysql-100.png'
+import mongodbIcon from '../assets/skills/icons8-mongodb-100.png'
 
-import gitIcon from '../assets/icons8-git-100.png'
-import vsCodeIcon from '../assets/icons8-code-studio-visuel-2019-100.png'
-import eclipseIcon from '../assets/icons8-eclipse-java-100.png'
-import figmaIcon from '../assets/icons8-figma-100.png'
+import gitIcon from '../assets/skills/icons8-git-100.png'
+import vsCodeIcon from '../assets/skills/icons8-code-studio-visuel-2019-100.png'
+import eclipseIcon from '../assets/skills/icons8-eclipse-java-100.png'
+import figmaIcon from '../assets/skills/icons8-figma-100.png'
 
 
 function Skills() {
@@ -47,9 +47,14 @@ function Skills() {
             <div className={Style.frameworks}>
                 <h2>Frameworks</h2>
                 <div className={Style.icons}>
-                    <img src={reactIcon} alt="REACT" />
-                    <img src={nodeIcon} alt="NODEJS" />
-                    <img src={bootstrapIcon} alt="BOOTSTRAP" />       
+                    <div>
+                        <img src={reactIcon} alt="REACT" />
+                        <img src={nodeIcon} alt="NODEJS" />
+                    </div>
+                    <div>
+                        <img src={angularIcon} alt="ANGULAR" />
+                        <img src={bootstrapIcon} alt="BOOTSTRAP" />  
+                    </div>      
                 </div>
             </div>
         </div>

@@ -60,6 +60,10 @@ button {
     cursor: pointer;
     transition: all 0.3s ease;
     text-transform: uppercase;
+    font-family: "Academy Engraved LET", sans-serif;
+    height: 50px;
+    line-height: 1.9;
+    
     
 }
 
